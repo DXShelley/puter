@@ -1,9 +1,5 @@
 {
-    "builds": [
-        {
-            "src": "dist/gui.js",
-            "use": "@vercel/node",
-            "config": { "includeFiles": ["dist/**"] }
-        }
-    ]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
