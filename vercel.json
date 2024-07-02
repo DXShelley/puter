@@ -1,7 +1,9 @@
-"builds": [
+{
+    "builds": [
         {
             "src": "dist/gui.js",
             "use": "@vercel/node",
             "config": { "includeFiles": ["dist/**"] }
         }
     ]
+}
