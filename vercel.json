@@ -4,4 +4,4 @@
             "use": "@vercel/node",
             "config": { "includeFiles": ["dist/**"] }
         }
-    ],
+    ]
